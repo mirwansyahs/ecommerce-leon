@@ -1,0 +1,455 @@
+CRITICAL - 2022-07-26 01:51:49 --> `App\Models\ChatModel` model class does not have a valid dateFormat.
+in SYSTEMPATH\BaseModel.php on line 1196.
+ 1 SYSTEMPATH\BaseModel.php(1196): CodeIgniter\Exceptions\ModelException::forNoDateFormat()
+ 2 SYSTEMPATH\BaseModel.php(1163): CodeIgniter\BaseModel->intToDate()
+ 3 SYSTEMPATH\BaseModel.php(722): CodeIgniter\BaseModel->setDate()
+ 4 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert()
+ 5 APPPATH\Controllers\Chat.php(72): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->send()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-26 01:54:27 --> Cannot add or update a child row: a foreign key constraint fails (`e-commerce-fashion`.`message`, CONSTRAINT `message_recipient_id_foreign` FOREIGN KEY (`recipient_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-07-26 01:54:27 --> Cannot add or update a child row: a foreign key constraint fails (`e-commerce-fashion`.`message`, CONSTRAINT `message_recipient_id_foreign` FOREIGN KEY (`recipient_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Chat.php(74): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->send()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-26 01:56:00 --> Cannot add or update a child row: a foreign key constraint fails (`e-commerce-fashion`.`message`, CONSTRAINT `message_recipient_id_foreign` FOREIGN KEY (`recipient_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-07-26 01:56:00 --> Cannot add or update a child row: a foreign key constraint fails (`e-commerce-fashion`.`message`, CONSTRAINT `message_recipient_id_foreign` FOREIGN KEY (`recipient_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Chat.php(74): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->send()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-26 01:56:03 --> Cannot add or update a child row: a foreign key constraint fails (`e-commerce-fashion`.`message`, CONSTRAINT `message_recipient_id_foreign` FOREIGN KEY (`recipient_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-07-26 01:56:03 --> Cannot add or update a child row: a foreign key constraint fails (`e-commerce-fashion`.`message`, CONSTRAINT `message_recipient_id_foreign` FOREIGN KEY (`recipient_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Chat.php(74): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->send()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-26 01:58:05 --> Column 'recipient_id' cannot be null
+CRITICAL - 2022-07-26 01:58:05 --> Column 'recipient_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Chat.php(74): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->send()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 03:29:50 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH\Views\layout\back-end\sidebar.php on line 30.
+ 1 APPPATH\Views\layout\back-end\sidebar.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\back-end\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\layout\back-end\main.php(205): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\back-end\\main.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render()
+10 APPPATH\Controllers\Dashboard.php(10): view()
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dashboard->index()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:16:43 --> Call to undefined method App\Models\ChatModel::num_rows
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(38): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->list()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:18:05 --> Call to undefined method App\Models\ChatModel::num_rows
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(27): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:19:27 --> Call to undefined method App\Models\ChatModel::countResultAll
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(27): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:20:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Chat.php on line 53.
+ 1 APPPATH\Controllers\Chat.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->list()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:21:47 --> Call to undefined method App\Models\ChatModel::result
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(42): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->list()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:25:06 --> Call to undefined method App\Models\ChatModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(42): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->list()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:25:09 --> Call to undefined method App\Models\ChatModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(42): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->list()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:25:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Chat.php on line 53.
+ 1 APPPATH\Controllers\Chat.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->list()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:25:59 --> Trying to get property 'message' of non-object
+in APPPATH\Controllers\Chat.php on line 28.
+ 1 APPPATH\Controllers\Chat.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:26:19 --> Call to undefined method App\Models\ChatModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(27): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:26:59 --> Call to undefined method App\Models\ChatModel::getRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(27): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:29:09 --> Call to undefined method App\Models\ChatModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(27): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:29:42 --> Trying to get property 'message' of non-object
+in APPPATH\Controllers\Chat.php on line 28.
+ 1 APPPATH\Controllers\Chat.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:31:19 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\Chat.php on line 53.
+ 1 APPPATH\Controllers\Chat.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->list()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:32:14 --> Call to undefined method App\Models\ChatModel::getNumRows
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(27): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:33:21 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\Chat.php on line 53.
+ 1 APPPATH\Controllers\Chat.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->list()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:38:37 --> Call to a member function getResult() on int
+in APPPATH\Controllers\Chat.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:38:54 --> Call to undefined method App\Models\ChatModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(29): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:40:08 --> Call to undefined method App\Models\ChatModel::getResultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(29): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:40:10 --> Call to undefined method App\Models\ChatModel::getResultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(29): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:40:38 --> Call to undefined method App\Models\ChatModel::getRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(29): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:40:40 --> Call to undefined method App\Models\ChatModel::getRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(29): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:41:26 --> Call to undefined method App\Models\ChatModel::getRowArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(29): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:42:35 --> Call to undefined method App\Models\ChatModel::getUnbufferedRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(29): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:42:37 --> Call to undefined method App\Models\ChatModel::getUnbufferedRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(29): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-26 04:47:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-07-26 04:47:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Chat.php(27): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-26 04:48:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-07-26 04:48:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Chat.php(27): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:48:48 --> Undefined variable: db
+in APPPATH\Controllers\Chat.php on line 27.
+ 1 APPPATH\Controllers\Chat.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:51:03 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$num_rows
+in APPPATH\Controllers\Chat.php on line 27.
+ 1 APPPATH\Controllers\Chat.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:51:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Controllers\Chat.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:52:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::numRows()
+in APPPATH\Controllers\Chat.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:52:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::numRow()
+in APPPATH\Controllers\Chat.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:52:49 --> Trying to get property 'message' of non-object
+in APPPATH\Controllers\Chat.php on line 34.
+ 1 APPPATH\Controllers\Chat.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:53:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Chat.php on line 34.
+ 1 APPPATH\Controllers\Chat.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:53:40 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Chat.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->list()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 04:55:09 --> Call to undefined method App\Models\ChatModel::getRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Chat.php(48): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Chat->list()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 09:27:07 --> syntax error, unexpected '<'
+in APPPATH\Views\layout\back-end\sidebar.php on line 21.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render()
+ 3 APPPATH\Views\layout\back-end\main.php(207): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\back-end\\main.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render()
+ 8 APPPATH\Controllers\Product.php(39): view()
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Product->add()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 22:41:24 --> Undefined variable: brand
+in APPPATH\Views\back-end\product\add.php on line 76.
+ 1 APPPATH\Views\back-end\product\add.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back-end\\product\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Product.php(39): view()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Product->add()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 22:46:54 --> Undefined variable: size
+in APPPATH\Views\back-end\product\add.php on line 90.
+ 1 APPPATH\Views\back-end\product\add.php(90): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back-end\\product\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Product.php(42): view()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Product->add()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-26 22:50:38 --> Table 'product_brand' already exists
+ERROR - 2022-07-26 22:51:18 --> Table 'product_brand' already exists
+ERROR - 2022-07-26 22:51:54 --> Table 'product_brand' already exists
+ERROR - 2022-07-26 22:52:26 --> Table 'product_brand' already exists
+ERROR - 2022-07-26 22:52:29 --> Table 'product_brand' already exists
+ERROR - 2022-07-26 22:53:59 --> Table 'product_brand' already exists
+ERROR - 2022-07-26 22:54:57 --> Table 'product_brand' already exists
+ERROR - 2022-07-26 22:56:38 --> Table 'product_brand' already exists
+ERROR - 2022-07-26 22:59:29 --> Table 'product_brand' already exists
+CRITICAL - 2022-07-26 23:06:38 --> Class 'App\Models\ColorModel' not found
+in APPPATH\Controllers\Product.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-26 23:10:00 --> Table 'product_brand' already exists
+ERROR - 2022-07-26 23:10:34 --> Table 'product_brand' already exists
+CRITICAL - 2022-07-26 23:32:32 --> Class 'App\Models\SizeModel' not found
+in APPPATH\Controllers\Product.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-26 23:32:47 --> Class 'App\Controllers\SizeModel' not found
+in APPPATH\Controllers\Product.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
