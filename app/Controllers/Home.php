@@ -362,7 +362,8 @@ class Home extends BaseController
             'modified_at' => Time::now('Asia/Jakarta', 'en_ID')
         ];
 
-        $this->profile->update($username, $params);
+        $this->db->table('user')->where(['username' => $username])->update($params);
+    
 
         return redirect()->to(site_url('akun-saya/' . $username))->with('success', 'Profil berhasil diubah!');
     }
