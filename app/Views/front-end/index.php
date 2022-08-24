@@ -99,10 +99,10 @@
                         <a href="<?= site_url('produk-detail/') . $p['slug']?>"><img src="<?= site_url('img/product/') . $p['image']?>" class="w-100" height="280px"></a>
                     </div>
                     <div class="text-center">
-                        <a href="<?= site_url('produk-detail/') . $rp['slug']?>" class="text-decoration-none text-dark">
+                        <a href="<?= site_url('produk-detail/') . $p['slug']?>" class="text-decoration-none text-dark">
                             <p class="text-capitalize mt-3 mb-1"><?= $p['name']?></p>
                         </a>
-                        <span class="fw-bold d-block">Rp. <?= number_format($rp['price'], 0, ',', '.')?></span>
+                        <span class="fw-bold d-block">Rp. <?= number_format($p['price'], 0, ',', '.')?></span>
                     </div>
                 </div>
                 <?php } ?>
